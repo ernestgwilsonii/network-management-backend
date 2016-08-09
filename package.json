@@ -1,0 +1,16 @@
+{
+  "name": "network-management-app",
+  "version": "1.0.0",
+  "description": "Backend for the Network Management App",
+  "author": "Ernest G. Wilson II <ErnestGWilsonII@gmail.com>",
+  "license": "MIT",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "^4.14.0",
+    "net-snmp": "^1.1.18"
+  }
+}
