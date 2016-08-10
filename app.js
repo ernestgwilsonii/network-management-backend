@@ -1,8 +1,10 @@
 var express = require("express"),
+    cors = require("cors"),
     snmp = require("./routes/snmp.js");
 
 var app = express();
 
+app.use(cors());
 app.use("/snmp", snmp);
 
 //!---error handlers---!//
