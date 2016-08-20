@@ -8,4 +8,4 @@ To run this app:
   $ npm start
 ```
 
-Note: There is a front end for this app located at [here](https://github.com/ernestgwilsonii/network-management-frontend)
+Note: There is a [frontend](https://github.com/ernestgwilsonii/network-management-frontend) for this app
