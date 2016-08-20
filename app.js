@@ -1,9 +1,11 @@
 var express = require("express"),
+    logger = require("morgan"),
     cors = require("cors"),
     snmp = require("./routes/snmp.js");
 
 var app = express();
 
+app.use(logger("dev"));
 app.use(cors());
 app.use("/snmp", snmp);
 
