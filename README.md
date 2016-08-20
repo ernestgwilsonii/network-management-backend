@@ -7,3 +7,5 @@ To run this app:
   $ npm install
   $ npm start
 ```
+
+Note: There is a front end for this app located at [here](https://github.com/ernestgwilsonii/network-management-frontend)
